@@ -1,0 +1,102 @@
+
+
+
+/* main */
+main{
+    height: 352.5px; 
+    width: 50%; 
+    border: 1px solid black;
+    margin: auto;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+    box-shadow: 5px 5px 5px #6082B6  ;
+    
+}
+.ri{
+    background-color: white ;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    text-align: center;
+    padding-right: 0;
+    margin: auto;
+}
+
+.c-l{
+    text-align: left;
+}
+.bc{
+    background-color:#6082B6 ;
+}
+.cen{
+    
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    
+    
+
+}
+.hello{
+    
+    padding: 10px;
+    font-size: 30px;
+}
+.enter{
+    font-size: 10px;
+    
+}
+
+/* create account form */
+
+button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 0 solid gray;
+    
+}
+button:hover{
+    transition: 1s;
+    color: white;
+    background-color: black;
+    
+}
+
+.acc{
+    font-size: 14px;
+    margin: 30px 10px 0px 10px;
+    padding: 8px 40px;
+}
+
+input{
+    padding: 3px;
+    font-size: 13px;
+
+}
+
+.ty{
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    
+    
+}
+
+::placeholder{
+    color: black;
+    
+}
+
+input.ty{
+    border: none;
+    border-bottom: 1px solid black;
+  }
+  
+  input.ty:focus {
+    box-shadow: 0 4px 2px -2px #666;
+    outline-width: 0;
+  }
+
+
+

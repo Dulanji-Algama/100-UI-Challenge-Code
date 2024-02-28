@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 04 - Calculater</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <form name="cal" class="calc" action="index.html" method="POST">
+  
+                <input type="text" name="answer" id="display">
+             <br><br>
+                <button type="button" class="btn b-s" value=="C" onclick="cal.answer.value=''">C</button>
+                <button type="button" class="btn b-s" value=="%" onclick="cal.answer.value+='%'">%</button>
+                <button type="button" class="btn b-s" value=="/" onclick="cal.answer.value+='/'">/</button>
+                <button type="button" class="btn b-s" value=="X" onclick="cal.answer.value=cal.answer.value.substring(0,cal.answer.value.length*1-1)">X</button>
+
+             <br><br>
+           
+               <button type="button" class="btn b-n"  value=="7" onclick="cal.answer.value+='7'">7</button>
+                <button type="button" class="btn b-n"  value=="8" onclick="cal.answer.value+='8'">8</button>
+                <button type="button" class="btn b-n" value=="9" onclick="cal.answer.value+='9'">9</button>
+                <button type="button" class="btn b-s" value=="*" onclick="cal.answer.value+='*'">*</button>
+            <br><br>
+                <button type="button" class="btn b-n"  value=="4" onclick="cal.answer.value+='4'">4</button>
+               <button type="button" class="btn b-n"  value=="5" onclick="cal.answer.value+='5'">5</button>
+                <button type="button" class="btn b-n" value=="6" onclick="cal.answer.value+='6'">6</button>
+                <button type="button" class="btn b-s" value=="-" onclick="cal.answer.value+='-'">-</button>
+            <br><br>
+                <button type="button" class="btn b-n" value=="1" onclick="cal.answer.value+='1'">1</button>
+                <button type="button" class="btn b-n" value=="2" onclick="cal.answer.value+='2'">2</button>
+                <button type="button" class="btn b-n" value=="3" onclick="cal.answer.value+='3'">3</button>
+                <button type="button" class="btn b-s" value=="+" onclick="cal.answer.value+='+'" >+</button>
+            <br><br>
+               <button type="button" class="btn b-n" value="0" onclick="cal.answer.value+='0'">0</button>
+               <button type="button" class="btn b-s" value=="." onclick="cal.answer.value+='.'">.</button>
+               <button type="button" class="btn b-s sp" value=="=" onclick="cal.answer.value=eval(cal.answer.value)">=</button>
+    </form>
+</body>
+</html>

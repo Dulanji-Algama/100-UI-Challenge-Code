@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{    
+    background-image: url(../img/bg-main.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px 800px;
+}
+
+
+.calc{
+    width: 350px;
+    height: 100vh;
+    text-align: center;
+    background: url(../img/bg.jpg);
+    border-radius: 10%;
+    margin: 0 10px -100px 180px;
+    box-shadow: 5px 14px 8px 1px #888888;
+}
+
+button{
+    font-size: 20px;
+    padding: 17px;
+    margin: 2px;
+    background-color: rgb(252, 254, 255);
+    border: none;
+    border-radius: 10%;
+    color: black;
+    box-shadow: 5px 4px 8px 1px #888888;
+}
+
+
+
+
+#display{
+    padding: 40px;
+    margin:  40px 40px 5px 40px;
+    text-align: right;
+    font-size: 15px;
+    color: black;
+    border-radius: 10%;
+    border: 5px solid white;
+    box-shadow: 5px 10px 8px 1px #888888;
+}
+
+.eq{
+    padding: 17px 45px 17px 45px;
+}

@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: "Fondamento", cursive;      
+
+}
+
+body{
+    background-color: #7ABACC;
+}
+
+/* left */
+.logo{
+    width: 60px;
+    position: absolute;
+    top: 5px;
+    right:90px;
+}
+.le{
+    text-align: center;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    box-shadow: 5px -12px 5px -1px lightblue;
+    padding-right: 0;
+    right: 290px;
+    height: 100vh;
+
+}
+.le-b{
+    width: 365px;
+    margin-top: 80px;
+    padding-left: 200px;
+   
+}
+
+.r-b{
+    border: 0.5px solid rgb(172, 167, 167);
+    margin: 10px 0 10px 0;
+    background-image: linear-gradient(rgb(106, 214, 236,0.7), rgb(253, 253, 253,0.5));
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 165px;
+    font-weight: 100;
+
+}
+.r-b:hover{
+    background: white;
+    box-shadow: 7px 4px 3px -1px rgb(225, 219, 219);
+    border: none;
+    width: 170px;
+    font-weight: 600;
+
+}
+
+.selected{
+    background: white;
+    box-shadow: 7px 4px 3px -1px rgb(225, 219, 219);
+    border: none;
+    width: 170px;
+    font-weight: 600;
+}
+/* right */
+.ri{
+    left: -265px;
+    margin-right: 0;
+    right: 0;
+
+}
+.t-btn{
+    position: absolute;
+    top: 5px;
+    right: -335px;
+    padding: 2px 10px;
+    border: 0.5px solid gray;
+    background-color: #ADD8E6;
+    font-size: 15px;
+
+}
+.t-btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.tb1{
+    right:-263px;
+}
+h1{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 40px;
+
+}
+
+.i1,.i2,.i3,.i4,.i5{
+    display: inline;
+    margin-top: 30px;
+}
+.i4,.i5{
+    margin-top: 30px;
+}
+.i6{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.p-l{
+    margin-right: 15px;
+
+}
+.on{
+    color: black;
+    border: none;
+}
+.off{
+    background-color: #85A1F2;
+    opacity: 0.7;
+    border: none;
+}
+.bo{
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid black ;
+    border-bottom: none;
+}
+.btn-l{
+    padding: 2px 40px;
+
+}
+.btn-l:hover{
+    color: black;
+    border: none;
+    background-color: white;
+}
+
+/* checkbox */
+.cb{
+    border: none;
+    box-shadow: -1px 7px 20px rgb(6, 211, 238) ;
+    width: 15px;
+    height: 15px;
+}
+/* pic opacity */
+.pic{
+    width: 130px;
+    display: inline;
+    margin-right: 5px;
+}
+.pic1{
+    margin-left: 15px;
+}
+.pic2{
+    opacity:0.9;
+}
+.pic3{
+    opacity:0.8;
+}
+.pic4{
+    opacity:0.6;
+}
+.pic5{
+    opacity:0.5;
+}
+
+.pic:hover{
+    border: 3px solid white;
+    box-shadow: -1px 7px 20px rgb(240, 242, 243) ;
+
+}

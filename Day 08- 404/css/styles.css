@@ -13,15 +13,30 @@ body{
 }
 ul{
     list-style-type: none;
-   
+    position: fixed;
+    top: 25px;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 2px;
+    z-index: 10;
+    position: relative;
+    font-weight: 700;
+    text-align: center;
 }
 li{
     display: inline;
-    position: absolute;
+    margin: 0 50px;
+    text-align: center;  
+    
+    
 }
 li a{
     text-decoration: none;
+    font-weight: 900;
     color: black;
+    top: -10px;
+    left: -40px;
+    
 }
 /* main */
 .m-div{
@@ -33,4 +48,16 @@ li a{
 .ri{
     text-align: justify;
     margin-top: 200px;
+}
+h1{
+   
+    font-size: 50px;
+
+}
+.h-1{
+    color: rgb(7, 66, 122);
+}
+.h-2{
+    color: rgb(5, 36, 63);
+    padding-bottom: 20px;
 }

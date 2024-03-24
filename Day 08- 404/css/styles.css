@@ -39,11 +39,14 @@ li a{
     left: -40px;
     
 }
+li a:hover{
+    color: rgb(18, 36, 194);
+}
 /* main */
 .m-div{
-    margin: 50px 20px 20px 20px;
+    margin: 80px 55px;
     padding: 20px;
-    border: 0 1px 1px 1px;
+    border: none;
     background-image: linear-gradient(to bottom, rgba(18, 19, 19, 0), rgb(5, 83, 120));
 }
 .ri{
@@ -52,7 +55,7 @@ li a{
 }
 h1{
     color: rgb(5, 36, 63);
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
@@ -68,4 +71,14 @@ button{
     box-shadow: 2px 5px 10px 1px rgb(220, 219, 219);
     border-radius: 50px;
     border: none;
+}
+button:hover{
+ color: rgb(18, 36, 194);
+ background-color: white;
+}
+.bg{
+    width: 300px;
+    position: absolute;
+    bottom: -100px;
+    right: -36px;
 }

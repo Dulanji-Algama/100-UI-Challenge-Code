@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/bg.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)),url(../img/bg.jpg);
     background-repeat: no-repeat;
-    background-size: 300px 100px;
+    background-size: 1300px 560px;
 }

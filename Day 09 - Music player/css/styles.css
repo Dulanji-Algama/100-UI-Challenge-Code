@@ -21,8 +21,15 @@ h3{
     width: 20px;
 }
 
-.b1,.b2,.b3{
+.b1,.b2,.b3,.b4,.b5{
     width: 80px;
     padding: 20px;
     margin: 20px;
+}
+.imgset{
+        position: absolute;
+        bottom: 8px;
+        right: 220px;
+        background-color: gray;
+        padding: 0;
 }

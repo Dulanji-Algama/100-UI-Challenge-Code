@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-size: 1300px 560px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(167, 218, 241, 0.3), rgb(179, 213, 241,0.3)),url(../img/bg.jpg);
+}
+.img1{
+    width: 90px;
+    top: 10;
+    position: absolute;
+    left: 10px;
+}
+.img2{
+    width: 20px;
+    top: 40px;
+    position: absolute;
+    right: 10px;
+}

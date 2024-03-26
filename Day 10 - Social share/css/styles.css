@@ -3,9 +3,9 @@
     margin: 0;
 }
 body{
-    background-size: 1300px 560px;
+    background-size: 1300px 580px;
     background-repeat: no-repeat;
-    font-family: "Fondamento", cursive;
+    font-family: "UnifrakturMaguntia", cursive;
     background-image: linear-gradient(rgba(167, 218, 241, 0.3), rgb(179, 213, 241,0.3)),url(../img/bg.jpg);
 }
 .img1{
@@ -21,38 +21,40 @@ body{
     right: 10px;
 }
 .img3{
-    width: 200px;
-    margin-bottom: -50px;
+    width: 100px;
+    margin-bottom: -20px;
 }
-.le{
-    z-index: 0;
-    padding: 0;
-    margin: 0;
-
-}
-.ri{
-    top: -60px;
+.col{
+    top: 0;
     padding: 10px;
     margin: 0 400px ;
     text-align: center;
     background-image: linear-gradient(rgb(73, 185, 219,0.5),rgb(24, 43, 65,0));
 }
 .imgset{
-    background-image: linear-gradient(rgb(121, 183, 244,o.5), rgb(155, 216, 237,0));
-    padding: 10PX;
+    padding: 10px;
     margin: 20PX;
 }
 .img4,.img5,.img6{
     width: 50px;
 }
 button{
-    background-image: radial-gradient(rgba(231, 221, 221, 0.3), rgba(21, 132, 197, 0.9));
+    background-color: rgb(100, 219, 219);
     padding: 10px 40px;
     margin: 10px;
     border-radius: 50px;
     border: none;
     color: black;
+    font-weight: 800;
 }   
+button:hover{
+    color: white;
+    background-color: black;
+}
 h1,h2,h3{
     padding: 20px;
+}
+h1{
+    font-weight: 900;
+    font-size: 50px;
 }

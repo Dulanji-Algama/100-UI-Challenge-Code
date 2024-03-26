@@ -5,6 +5,7 @@
 body{
     background-size: 1300px 560px;
     background-repeat: no-repeat;
+    font-family: "Fondamento", cursive;
     background-image: linear-gradient(rgba(167, 218, 241, 0.3), rgb(179, 213, 241,0.3)),url(../img/bg.jpg);
 }
 .img1{
@@ -21,11 +22,16 @@ body{
 }
 .img3{
     width: 200px;
+    margin-bottom: -50px;
 }
-.ri-le{
-    right: 200px;
+.le{
+    z-index: 0;
+    padding: 0;
+    margin: 0;
+
 }
 .ri{
+    top: -60px;
     padding: 10px;
     margin: 0 400px ;
     text-align: center;

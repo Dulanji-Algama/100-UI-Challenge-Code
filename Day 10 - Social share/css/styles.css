@@ -10,13 +10,30 @@ body{
 }
 .img1{
     width: 90px;
-    top: 10;
+    top: 10px;
     position: absolute;
     left: 10px;
 }
 .img2{
-    width: 20px;
-    top: 40px;
+    width: 50px;
+    top: 10px;
     position: absolute;
     right: 10px;
+}
+.img3{
+    width: 200px;
+    top: 200px;
+    left: 150px;
+}
+.ri{
+    top: -50;
+    text-align: center;
+}
+.imgset{
+    background-image: linear-gradient(rgb(121, 183, 244,o.5), rgb(155, 216, 237,0));
+    padding: 10PX;
+    margin: 20PX;
+}
+.img4,.img5,.img6{
+    width: 50px;
 }

@@ -30,7 +30,7 @@ li a{
     
 }
 .li-select{
-    box-shadow: 1px 1px 10px 0px;
+    font-weight: 900;
 }
 .sus{
     position: absolute;
@@ -73,7 +73,7 @@ button{
     bottom: 150px;
     right: 300px;
     left: 350px;
-    background-color: white;
+    background-image: linear-gradient(rgb(207, 207, 225), rgb(23, 172, 214));
     box-shadow: 1px 1px 10px 0px;
     color: black;
     padding: 20px;
@@ -81,6 +81,7 @@ button{
 h2{
     padding: 30px 10px;
     margin-bottom: 30px;
+    font-weight: 800;
 }
 .img2{
     position: absolute;
@@ -102,4 +103,5 @@ input{
 }
 ::placeholder{
     color: black;
+    font-family: "Cinzel", serif;
 }

@@ -14,31 +14,45 @@ body{
     position: absolute;
     top: 10px;
 }
-.imgset{
+.title{
+    width: 90px;
     position: absolute;
-    top: 10px;
+    top: 35px;
     left: 100px;
+    color: rgb(3, 42, 56);
 }
 .img1{
-    width: 60px;
+    width: 40px;
+    position: absolute;
+    top: 16px;
+    right: 132px;
 }
 .img2{
-    width: 90px;
+    width: 60px;
+    position: absolute;
+    top:  0.3px;
+    right: 66px;
 }
 .img3{
-    width: 60px;
+    width: 45px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
 }
+
 .img4{
     width: 200px;
     position: absolute;
-    top: 125px;
-    left: 30px;
+    top: 105px;
+    left: 140px;
     z-index: 1;
 }
 .img5{
     width: 250px;
     position: absolute;
-    top: 75px;
+    top: 55px;
+    left: 140px;
+
 }
 .img6{
     width: 200px;

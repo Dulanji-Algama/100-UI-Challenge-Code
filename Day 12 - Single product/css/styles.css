@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Abril Fatface", serif;
+}
+nav{
+    position: absolute;
+    top: 10px;
+}
+.logo{
+    width: 90px;
+}
+.imgset{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.img1{
+    width: 60px;
+}
+.img2{
+    width: 90px;
+}
+.img3{
+    width: 60px;
+}
+.img4{
+    width: 200px;
+    position: absolute;
+    top: 125px;
+    left: 30px;
+    z-index: 1;
+}
+.img5{
+    width: 250px;
+    position: absolute;
+    top: 200px;
+}
+.img6{
+    width: 200px;
+    position: absolute;
+    top: 125px;
+    left: -50px;
+}
+h1{
+    position: absolute;
+    top: 200px;
+    left: -10px;
+}
+h2{
+    position: absolute;
+    top: 250px;
+    left: -10px;
+}
+p{
+    
+}

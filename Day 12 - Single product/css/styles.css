@@ -4,13 +4,15 @@
 }
 body{
     font-family: "Abril Fatface", serif;
-}
-nav{
-    position: absolute;
-    top: 10px;
+    margin: 20px;
+    background-image: linear-gradient(rgb(171, 215, 243,.5), rgb(156, 212, 247,.5)),url(../img/bg.jpg);
+    background-size: 1300px 640px;
+
 }
 .logo{
     width: 90px;
+    position: absolute;
+    top: 10px;
 }
 .imgset{
     position: absolute;
@@ -36,7 +38,7 @@ nav{
 .img5{
     width: 250px;
     position: absolute;
-    top: 200px;
+    top: 75px;
 }
 .img6{
     width: 200px;
@@ -88,4 +90,42 @@ h2{
     position: absolute;
     top: 320px;
     left: 60px;
+}
+.quan{
+    position: absolute;
+    top: 360px;
+    left: -10px;
+}
+input{
+    position: absolute;
+    top: 390px;
+    left: -3px;
+    border: none;
+    border-bottom: 2px solid black;   
+    width: 80px;
+
+}
+.img7{
+    position: absolute;
+    top: 440px;
+    left: -10px;
+    width: 20px;
+}
+.fav{
+    position: absolute;
+    top: 440px;
+    left: 20px;
+}
+button{
+    padding: 10px 30px;
+    position: absolute;
+    top: 480px;
+    left: -10px;
+    border-radius: 50px;
+    background-color: rgb(1, 63, 110);
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: black;
 }

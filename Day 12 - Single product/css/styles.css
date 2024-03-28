@@ -54,6 +54,38 @@ h2{
     top: 250px;
     left: -10px;
 }
-p{
-    
+.colo{
+    position: absolute;
+    top: 290px;
+    left: -10px;
+}
+.blue{
+    border-radius: 50%;
+    background-color: lightskyblue;
+    border: 2px solid black;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 320px;
+    left: 0px;
+}
+.yellow{
+    border-radius: 50%;
+    background-color: rgb(255, 255, 0);
+    border: none;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 320px;
+    left: 30px;
+}
+.pink{
+    border-radius: 50%;
+    background-color: rgb(255, 0, 157);
+    border: none;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 320px;
+    left: 60px;
 }

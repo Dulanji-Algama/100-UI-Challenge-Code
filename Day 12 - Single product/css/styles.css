@@ -24,19 +24,19 @@ body{
 .img1{
     width: 40px;
     position: absolute;
-    top: 16px;
+    top: 31px;
     right: 132px;
 }
 .img2{
     width: 60px;
     position: absolute;
-    top:  0.3px;
+    top:  14px;
     right: 66px;
 }
 .img3{
     width: 45px;
     position: absolute;
-    top: 8px;
+    top: 22px;
     right: 16px;
 }
 
@@ -57,22 +57,22 @@ body{
 .img6{
     width: 200px;
     position: absolute;
-    top: 125px;
-    left: -50px;
+    top: 50px;
+    left: -55px;
 }
 h1{
     position: absolute;
-    top: 200px;
+    top: 125px;
     left: -10px;
 }
 h2{
     position: absolute;
-    top: 250px;
+    top: 175px;
     left: -10px;
 }
 .colo{
     position: absolute;
-    top: 290px;
+    top: 215px;
     left: -10px;
 }
 .blue{
@@ -82,7 +82,7 @@ h2{
     height: 20px;
     width: 20px;
     position: absolute;
-    top: 320px;
+    top: 245px;
     left: 0px;
 }
 .yellow{
@@ -92,7 +92,7 @@ h2{
     height: 20px;
     width: 20px;
     position: absolute;
-    top: 320px;
+    top: 245px;
     left: 30px;
 }
 .pink{
@@ -102,38 +102,39 @@ h2{
     height: 20px;
     width: 20px;
     position: absolute;
-    top: 320px;
+    top: 245px;
     left: 60px;
 }
 .quan{
     position: absolute;
-    top: 360px;
+    top: 285px;
     left: -10px;
 }
 input{
     position: absolute;
-    top: 390px;
+    top: 315px;
     left: -3px;
     border: none;
     border-bottom: 2px solid black;   
-    width: 80px;
+    width: 70px;
+    background-color: transparent;
 
 }
 .img7{
     position: absolute;
-    top: 440px;
+    top: 365px;
     left: -10px;
     width: 20px;
 }
 .fav{
     position: absolute;
-    top: 440px;
+    top: 365px;
     left: 20px;
 }
 button{
     padding: 10px 30px;
     position: absolute;
-    top: 480px;
+    top: 425px;
     left: -10px;
     border-radius: 50px;
     background-color: rgb(1, 63, 110);

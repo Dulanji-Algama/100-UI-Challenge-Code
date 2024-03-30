@@ -67,6 +67,7 @@ body{
     height: 640px;
     width: 433px;
 }
+/* search */
 .search-bar{
     height: 45px;
     width: 400px;
@@ -97,6 +98,7 @@ body{
     outline: none;
 
 }
+/* group */
 .group{
     height: 150px;
     width: 400px;
@@ -107,6 +109,61 @@ body{
     top: 85px ;
     border-radius: 30px;
 }
+/* group 1 */
+.g1{
+    height: 60px;
+    width: 300px;
+    position: absolute;
+    left: 200px;
+    top: 85px ;
+    border: 1px solid black;
+}
+.img1{
+    width: 50px;
+    border-radius: 50%;
+}
+.name-g1{
+
+}
+.chat-g1{
+
+}
+.time-g1{
+
+}
+/* group 2 */
+.g2{
+    height: 60px;
+    width: 300px;
+    position: absolute;
+    left: 200px;
+    top: 185px ;
+    border: 1px solid black;
+}
+.img2{
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+}
+.name-g2{
+    position: absolute;
+    top: 15px;
+    font-weight: 800;
+    left: 60px;
+    font-size: 16px;
+}
+.chat-g2{
+    position: absolute;
+    top: 25px;
+    left: 60px;
+    font-size: 14px;
+    opacity: 0.6;
+}
+.time-g2{
+
+}
+/* friends */
 
 
 /* section3 */

@@ -7,7 +7,7 @@ body{
 }
 /* section1 */
 .sec1{
-    background-image: linear-gradient(rgb(146, 213, 255,0.7), rgb(191, 225, 247,0.3)) ;
+    background-image: linear-gradient(rgba(78, 175, 235, 0.5), rgba(144, 202, 241, 0.3)) ;
     text-align: center;
     position: absolute;
     border-radius: 30px;
@@ -15,52 +15,54 @@ body{
     margin: 20px ;
     height: 640px;
     width: 216px;
-    left: 40px;
+    left: 10px;
     box-shadow: 1px 1px 6px 1px gray;
-    height: 491px;
+    height: 486px;
     width: 100px;
 }
 .Upic{
     width: 80px;
     margin-top: 10px;
     border-radius: 50px;
-    left: 12px;
+    left: 10px;
     position: absolute;
-    margin-bottom: 30px;
 }
 .home{
-    width: 50px;
-    margin-top: 160px;
+    width: 30px;
     left: 36px;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.3;
+    top: 150px;
 }
 .chat{
-    width: 40px;
-    margin-top: 260px;
-    left: 42px;
+    width: 25px;
+    left: 38px;
+    top: 220px;
     position: absolute;
-    opacity: 0.9;
 }
+
 .notification{
-    width: 75px;
-    margin-top: 325px;
-    left: 26px;
+    width: 45px;
+    left: 30px;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.3;
+    top: 275px;
+
 }
 .setting{
-    width: 60px;
-    margin-top: 420px;
-    left: 31px;
+    width: 40px;
+    top: 345px;
+    left: 32px;
     position: absolute;
+    opacity: 0.5;
 
 }
 .logout{
-    width: 80px;
+    width: 50px;
     left: 27px;
     position: absolute;
     bottom: 20px;
+    opacity: 0.7;
 
 }
 /* section2 */
@@ -73,7 +75,7 @@ body{
     height: 45px;
     width: 400px;
     position: absolute;
-    left: 130px;
+    left: 80px;
     background-color: white ;
     box-shadow: 1px 3px 9px 1px gray;
     top: 25px ;
@@ -104,7 +106,7 @@ body{
     height: 150px;
     width: 400px;
     position: absolute;
-    left: 130px;
+    left: 80px;
     background-color: white ;
     box-shadow: 1px 3px 9px 1px gray;
     top: 90px ;
@@ -263,13 +265,13 @@ body{
 }
 /* friends */
 .Friends{
-    height: 250px;
+    height: 255px;
     width: 400px;
     position: absolute;
-    left: 130px;
+    left: 80px;
     background-color: white ;
     box-shadow: 1px 3px 9px 1px gray;
-    top: 260px ;
+    top: 250px ;
     border-radius: 30px;
     z-index: 1;
     
@@ -282,7 +284,7 @@ body{
     color: rgb(2, 40, 54);
 }
 .scroll-f{
-    height: 180px;
+    height: 200px;
     width: 360px;
     /* border: 2px solid black; */
     padding: 20px;

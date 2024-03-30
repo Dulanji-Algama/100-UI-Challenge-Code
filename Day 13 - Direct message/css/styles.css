@@ -13,11 +13,11 @@ body{
     border-radius: 40px;
     padding: 20px;
     margin: 20px ;
-    height: 1300px;
+    height: 640px;
     width: 126px;
     left: 0px;
-    border: 1px solid rgb(160, 158, 158);
-
+    /* border: 1px solid rgb(160, 158, 158); */
+    box-shadow: 1px 1px 6px 1px gray;
 }
 .Upic{
     width: 100px;
@@ -29,20 +29,28 @@ body{
 }
 .home{
     width: 50px;
-    margin-top: 159px;
+    margin-top: 160px;
     left: 36px;
     position: absolute;
+    opacity: 0.5;
+}
+.chat{
+    width: 40px;
+    margin-top: 260px;
+    left: 42px;
+    position: absolute;
+    /* opacity: 0.5; */
 }
 .notification{
     width: 75px;
-    margin-top: 10px;
+    margin-top: 325px;
     left: 26px;
     position: absolute;
-
+    opacity: 0.5;
 }
 .setting{
     width: 60px;
-    margin-top: 2px;
+    margin-top: 420px;
     left: 31px;
     position: absolute;
 
@@ -51,16 +59,27 @@ body{
     width: 80px;
     left: 27px;
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
 
 }
 /* section2 */
 .sec2{
-    height: 1300px;
-    width: 214;
+    height: 640px;
+    /* width: 214; */
+}
+.search{
+    height: 162px;
+    width: 180px;
+    background-color: white ;
+    text-align: center;
+    box-shadow: 1px 1px 6px 1px gray;
+    position: absolute;
+    top:20px ;
+    border-radius: 50px;
+
 }
 /* section3 */
 .sec3{
-    height: 1300px;
+    height: 640px;
     width: 320;
 }

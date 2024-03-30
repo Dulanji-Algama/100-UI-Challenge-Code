@@ -99,7 +99,7 @@ body{
 }
 /* group */
 .group{
-    height: 150px;
+    height: 180px;
     width: 400px;
     position: absolute;
     left: 200px;
@@ -118,8 +118,8 @@ h3{
 }
 /* scroll bar */
 
-.scroll{
-    height: 100px;
+.scroll-g{
+    height: 130px;
     width: 360px;
     border: 2px solid black;
     padding: 20px;
@@ -223,6 +223,42 @@ h3{
     font-size: 10px;
     opacity: 0.6;
 }
+/* group 3 */
+.g3{
+    height: 60px;
+    width: 320px;
+    position: absolute;
+    top: 130px;
+    border: 1px solid black;
+}
+
+.img-g3{
+    width: 48px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+}
+.name-g3{
+    position: absolute;
+    top: 16px;
+    font-weight: 800;
+    left: 55px;
+    font-size: 16px;
+}
+.chat-g3{
+    position: absolute;
+    top: 34px;
+    left: 56px;
+    font-size: 12px;
+    opacity: 0.6;
+}
+.time-g3{
+    position: absolute;
+    top: 19px;
+    right: 10px;
+    font-size: 10px;
+    opacity: 0.6;
+}
 /* friends */
 .Friends{
     height: 375px;
@@ -231,7 +267,7 @@ h3{
     left: 200px;
     background-color: white ;
     box-shadow: 1px 3px 9px 1px gray;
-    top: 250px ;
+    top: 285px ;
     border-radius: 30px;
     z-index: 1;
     
@@ -242,6 +278,18 @@ h3{
     top: 15px;
     left: 25px;
     color: rgb(2, 40, 54);
+}
+.scroll-f{
+    height: 320px;
+    width: 360px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 40px;
+    overflow: hidden;
+    overflow-y:scroll;
 }
 
 /* friend 1 */
@@ -261,35 +309,317 @@ h3{
 }
 .name-f1{
     position: absolute;
-    top: 10px;
+    top: 13px;
     font-weight: 800;
     left: 55px;
     font-size: 16px;
 }
 .chat-f1{
     position: absolute;
-    top: 28px;
+    top: 31px;
     left: 56px;
     font-size: 12px;
     opacity: 0.6;
 }
 .time-f1{
     position: absolute;
-    top: 13px;
-    right: 10px;
+    top: 16px;
+    right : 10px;
     font-size: 10px;
     opacity: 0.6;
 }
-
-.read-f1{
+.stat-f1{
     width: 30px;
     position: absolute;
-    top: 13px;
+    bottom: 5px;
     right: 10px;
     font-size: 10px;
     opacity: 0.6;
 }
+/* friend 2 */
+.f2{
+    height: 60px;
+    width: 320px;
+    position: absolute;
+    top: 70px ;
+    border: 1px solid black;
 
+}
+ .img-f2{
+    width: 48px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+}
+ 
+.name-f2{
+    position: absolute;
+    top: 13px;
+    font-weight: 800;
+    left: 55px;
+    font-size: 16px;
+}
+.chat-f2{
+    position: absolute;
+    top: 31px;
+    left: 56px;
+    font-size: 12px;
+    opacity: 0.6;
+}
+.time-f2{
+    position: absolute;
+    top: 16px;
+    right : 10px;
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+.stat-f2{
+    width: 20px;
+    position: absolute;
+    bottom: 9px;
+    right: 10px;
+    font-size: 10px;
+    opacity: 0.6;
+}
+/* friend 3 */
+.f3{
+    height: 60px;
+    width: 320px;
+    position: absolute;
+    top: 130px ;
+    border: 1px solid black;
+
+}
+.img-f3{
+    width: 48px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+}
+.name-f3{
+    position: absolute;
+    top: 13px;
+    font-weight: 800;
+    left: 55px;
+    font-size: 16px;
+}
+.chat-f3{
+    position: absolute;
+    top: 31px;
+    left: 56px;
+    font-size: 12px;
+    opacity: 0.6;
+}
+.time-f3{
+    position: absolute;
+    top: 16px;
+    right : 10px;
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+.stat-f3{
+    width: 30px;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 10px;
+    opacity: 0.6;
+}
+/* Friends 4 */
+.f4{
+    height: 60px;
+    width: 320px;
+    position: absolute;
+    top: 190px ;
+    border: 1px solid black;
+
+}
+.img-f4{
+    width: 48px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+}
+.name-f4{
+    position: absolute;
+    top: 13px;
+    font-weight: 800;
+    left: 55px;
+    font-size: 16px;
+}
+.chat-f4{
+    position: absolute;
+    top: 31px;
+    left: 56px;
+    font-size: 12px;
+    opacity: 0.6;
+}
+.time-f4{
+    position: absolute;
+    top: 16px;
+    right : 10px;
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+.stat-f4{
+    width: 30px;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 10px;
+    opacity: 0.6;
+}
+/* friend 5 */
+.f5{
+    height: 60px;
+    width: 320px;
+    position: absolute;
+    top: 250px ;
+    border: 1px solid black;
+
+}
+.img-f5{
+    width: 48px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+}
+.name-f5{
+    position: absolute;
+    top: 13px;
+    font-weight: 800;
+    left: 55px;
+    font-size: 16px;
+}
+.chat-f5{
+    position: absolute;
+    top: 31px;
+    left: 56px;
+    font-size: 12px;
+    opacity: 0.6;
+}
+.time-f5{
+    position: absolute;
+    top: 16px;
+    right : 10px;
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+.stat-f5{
+    width: 30px;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 10px;
+    opacity: 0.6;
+}
+/* Friends 6 */
+.f6{
+    height: 60px;
+    width: 320px;
+    position: absolute;
+    top: 190px ;
+    border: 1px solid black;
+
+}
+.img-f6{
+    width: 48px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+}
+.name-f6{
+    position: absolute;
+    top: 13px;
+    font-weight: 800;
+    left: 55px;
+    font-size: 16px;
+}
+.chat-f6{
+    position: absolute;
+    top: 31px;
+    left: 56px;
+    font-size: 12px;
+    opacity: 0.6;
+}
+.time-f6{
+    position: absolute;
+    top: 16px;
+    right : 10px;
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+.stat-f6{
+    width: 30px;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 10px;
+    opacity: 0.6;
+}
+/* friend 7 */
+.f7{
+    height: 60px;
+    width: 320px;
+    position: absolute;
+    top: 250px ;
+    border: 1px solid black;
+
+}
+.img-f7{
+    width: 48px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+}
+.name-f7{
+    position: absolute;
+    top: 13px;
+    font-weight: 800;
+    left: 55px;
+    font-size: 16px;
+}
+.chat-f7{
+    position: absolute;
+    top: 31px;
+    left: 56px;
+    font-size: 12px;
+    opacity: 0.6;
+}
+/* friend 8 */
+.f8{
+    height: 60px;
+    width: 320px;
+    position: absolute;
+    top: 250px ;
+    border: 1px solid black;
+
+}
+.img-f8{
+    width: 48px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+}
+.name-f8{
+    position: absolute;
+    top: 13px;
+    font-weight: 800;
+    left: 55px;
+    font-size: 16px;
+}
+.chat-f8{
+    position: absolute;
+    top: 31px;
+    left: 56px;
+    font-size: 12px;
+    opacity: 0.6;
+}
 
 /* section3 */
 .sec3{

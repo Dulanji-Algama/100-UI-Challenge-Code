@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: skyblue;
+}
+/* section1 */
+.sec1{
+    background-image: linear-gradient(rgb(146, 213, 255,0.7), rgb(191, 225, 247,0.3)) ;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    height: 1300px;
+    width: 106px
+
+}
+.Upic{
+    width: 90px;
+    margin-top: 10px;
+}
+.home{
+
+}
+.notification{
+
+}
+.setting{
+
+}
+.logout{
+
+}
+/* section2 */
+.sec2{
+    height: 1300px;
+    width: 214;
+}
+/* section3 */
+.sec3{
+    height: 1300px;
+    width: 320;
+}

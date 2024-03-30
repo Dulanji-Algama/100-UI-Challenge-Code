@@ -14,7 +14,7 @@ body{
     padding: 20px;
     margin: 20px ;
     height: 640px;
-    width: 126px;
+    width: 216px;
     left: 0px;
     /* border: 1px solid rgb(160, 158, 158); */
     box-shadow: 1px 1px 6px 1px gray;
@@ -65,21 +65,52 @@ body{
 /* section2 */
 .sec2{
     height: 640px;
-    /* width: 214; */
+    width: 433px;
 }
-.search{
-    height: 162px;
-    width: 180px;
-    background-color: white ;
-    text-align: center;
-    box-shadow: 1px 1px 6px 1px gray;
+.search-bar{
+    height: 45px;
+    width: 400px;
     position: absolute;
-    top:20px ;
+    left: 200px;
+    background-color: white ;
+    box-shadow: 1px 3px 9px 1px gray;
+    top: 25px ;
     border-radius: 50px;
 
 }
+.search-i{
+    position: absolute;
+    left: -5px;
+    width: 80px;
+    opacity: 0.5;
+}
+.search-p{
+    position: absolute;
+    left: 65px;
+    top: 15px;
+    width: 80px;
+    opacity: 0.5;
+    font-weight: 600;
+    color: rgb(6, 99, 136);
+    border: none;
+    width: 300px;
+    outline: none;
+
+}
+.group{
+    height: 150px;
+    width: 400px;
+    position: absolute;
+    left: 200px;
+    background-color: white ;
+    box-shadow: 1px 3px 9px 1px gray;
+    top: 85px ;
+    border-radius: 30px;
+}
+
+
 /* section3 */
 .sec3{
     height: 640px;
-    width: 320;
+    width: 650px;
 }

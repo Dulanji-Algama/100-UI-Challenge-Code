@@ -5,6 +5,7 @@
 body{
     background-image: linear-gradient(rgba(129, 205, 236, 0.5),rgba(129, 205, 236, 0.5));
 }
+
 /* section1 */
 .sec1{
     background-image: linear-gradient(rgba(78, 175, 235, 0.5), rgba(144, 202, 241, 0.3)) ;
@@ -17,7 +18,7 @@ body{
     width: 216px;
     left: 10px;
     box-shadow: 1px 1px 6px 1px gray;
-    height: 486px;
+    height: 530px;
     width: 100px;
 }
 .Upic{
@@ -265,7 +266,7 @@ body{
 }
 /* friends */
 .Friends{
-    height: 255px;
+    height: 299px;
     width: 400px;
     position: absolute;
     left: 80px;
@@ -284,7 +285,7 @@ body{
     color: rgb(2, 40, 54);
 }
 .scroll-f{
-    height: 200px;
+    height: 244px;
     width: 360px;
     /* border: 2px solid black; */
     padding: 20px;
@@ -659,6 +660,15 @@ body{
 
 /* section3 */
 .sec3{
-    height: 640px;
-    width: 650px;
+    height: 530px;
+    width: 2000px;
+    border: 2px ;
+    background-color: white;
+    /* position: absolute;
+    border-radius: 30px;
+    left: -77px;
+    box-shadow: 1px 1px 6px 1px gray;
+    top: 20px */
+
+
 }

@@ -849,7 +849,8 @@ body{
     border-radius: 30px;
     left: 20px; 
     box-shadow: 1px 1px 6px 1px gray;
-    top: 400px 
+    top: 400px ;
+    border: 1px solid black;
 }
 .attach{
     width: 25px;
@@ -867,14 +868,26 @@ body{
     background-color: transparent;
 
 }
+.emoji{
+    width: 35px;
+    position: absolute;
+    bottom: 0 ;
+    right: 55px;
+}
+.camera{
+    width: 55px;
+    position: absolute;
+    bottom: -20px ;
+    right: 2px;
 
+}
 
-/* .micro{
+.micro{
     width: 40px;
     border: 2px solid  rgb(142, 206, 232);
     border-radius: 50%;
     position: absolute;
-    bottom: 24px ;
+    bottom: 21px ;
     right: 10px;
     
-} */
+}

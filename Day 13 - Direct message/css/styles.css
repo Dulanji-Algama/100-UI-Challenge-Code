@@ -664,12 +664,29 @@ body{
     width: 800px;
 }
 .bc{
-height: 530px;
-width: 690px ;
-background-color: white;
-position: absolute;
-border-radius: 30px;
- left: -77px; 
-box-shadow: 1px 1px 6px 1px gray;
-top: 20px 
+    height: 530px;
+    width: 690px ;
+    background-color: white;
+    position: absolute;
+    border-radius: 30px;
+    left: -77px; 
+    box-shadow: 1px 1px 6px 1px gray;
+    top: 20px 
+}
+.m-box{
+    height: 460px;
+    width: 690px ;
+    background-color: white;
+    position: absolute;
+    border-radius: 30px;
+    left: 0px; 
+    box-shadow: 1px 1px 6px 1px gray;
+    top: 70px 
+}
+.fri-pic{
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    border-radius: 50%;
 }

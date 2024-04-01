@@ -746,3 +746,98 @@ body{
     box-shadow: 1px 1px 6px 1px gray;
     top: 70px ;
 }
+
+/* chat1 */
+.ch1 {
+    width: 120px;
+    height: 30px;
+    background:  #7eb0d9;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 50px;
+    position: absolute;
+    right: 31px;
+    top: 30px;
+  }
+  .ch1:before {
+    content: "";
+    position: absolute;
+    left: 90%;
+    bottom: 6px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 30px solid #7eb0d9;
+    border-bottom: 1px solid transparent;
+  }
+.ch1-m{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    font-family: "Domine", serif;
+}
+.ch-1-1{
+    position: absolute;
+    top: 65px;
+    right: 37px;
+    font-family: "Domine", serif;
+    font-size: 8px;
+    color: gray;
+}
+
+.day{
+     position: absolute;
+     top: 80px;
+     font-size: 10px;
+     right: 340px;
+     font-family: "Domine", serif;
+     color: gray;
+
+}
+/* chat2 */
+
+.sticker{
+     width: 150px;
+     position: absolute;
+     left: 30px;
+     top: 80px;
+}
+.ch2 {
+    width: 120px;
+    height: 30px;
+    background:  #7eb0d9;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 50px;
+    position: absolute;
+    left: 31px;
+    top: 280px;
+  }
+  .ch2:before {
+    content: "";
+    position: absolute;
+    right: 90%;
+    bottom: 6px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 30px solid #7eb0d9;
+    border-bottom: 1px solid transparent;
+  }
+
+.ch2-m{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-family: "Domine", serif;
+}
+.ch-2-2{
+    position: absolute;
+    top: 315px;
+    left: 42px;
+    font-family: "Domine", serif;
+    font-size: 8px;
+    color: gray;
+}

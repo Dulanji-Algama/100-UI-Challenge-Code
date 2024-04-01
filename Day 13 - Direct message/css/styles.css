@@ -673,16 +673,7 @@ body{
     box-shadow: 1px 1px 6px 1px gray;
     top: 20px 
 }
-.m-box{
-    height: 460px;
-    width: 690px ;
-    background-color: white;
-    position: absolute;
-    border-radius: 30px;
-    left: 0px; 
-    box-shadow: 1px 1px 6px 1px gray;
-    top: 70px 
-}
+
 .fri-pic{
     width: 50px;
     position: absolute;
@@ -712,14 +703,14 @@ body{
     position: absolute;
     top: 15px;
     width: 35px;
-    right: 80px;
+    right: 120px;
     font-weight: 800;
 }
 .video{
     position: absolute;
     top: 7px;
     width: 50px;
-    right: 60px;
+    right: 50px;
     font-weight: 800;
 }
 .kebab{
@@ -745,4 +736,13 @@ body{
 
 }
 
-                   
+.m-box{
+    height: 460px;
+    width: 690px ;
+    background-image: linear-gradient(rgba(183, 222, 246, 0.5), rgba(117, 194, 241, 0.5) );
+    position: absolute;
+    border-radius: 30px;
+    left: 0px; 
+    box-shadow: 1px 1px 6px 1px gray;
+    top: 70px ;
+}

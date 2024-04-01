@@ -661,14 +661,15 @@ body{
 /* section3 */
 .sec3{
     height: 530px;
-    width: 2000px;
-    border: 2px ;
-    background-color: white;
-    /* position: absolute;
-    border-radius: 30px;
-    left: -77px;
-    box-shadow: 1px 1px 6px 1px gray;
-    top: 20px */
-
-
+    width: 800px;
+}
+.bc{
+height: 530px;
+width: 690px ;
+background-color: white;
+position: absolute;
+border-radius: 30px;
+ left: -77px; 
+box-shadow: 1px 1px 6px 1px gray;
+top: 20px 
 }

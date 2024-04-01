@@ -841,3 +841,40 @@ body{
     font-size: 8px;
     color: gray;
 }
+.type{
+    height: 40px;
+    width: 610px;
+    background-image: linear-gradient(rgba(172, 212, 237, 0.5), rgba(144, 202, 241, 0.3)) ;
+    position: absolute;
+    border-radius: 30px;
+    left: 20px; 
+    box-shadow: 1px 1px 6px 1px gray;
+    top: 400px 
+}
+.attach{
+    width: 25px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px ;
+    left: 10px;
+}
+.type-m{
+    position: absolute;
+    bottom: 13px ;
+    left: 45px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+
+}
+
+
+/* .micro{
+    width: 40px;
+    border: 2px solid  rgb(142, 206, 232);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 24px ;
+    right: 10px;
+    
+} */

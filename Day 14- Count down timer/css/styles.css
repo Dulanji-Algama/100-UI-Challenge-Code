@@ -1,0 +1,8 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(rgba(234, 242, 245, 0.5),rgba(227, 242, 247, 0.5)),url(../img/bg.jpg);
+}

@@ -24,14 +24,20 @@ p{
   font-size: 150px;
   padding: 50px;
 }
+.imgset{
+    text-align: center;
+}
 .reset{
     width: 70px;
+    margin-right: 50px;
 }
 .play{
     width: 70px;
+    margin-right: 50px;
 
 }
 .setting{
     width: 70px;
+    margin-right: 50px;
 
 }

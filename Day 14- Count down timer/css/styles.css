@@ -5,4 +5,17 @@
 }
 body{
     background-image: linear-gradient(rgba(234, 242, 245, 0.5),rgba(227, 242, 247, 0.5)),url(../img/bg.jpg);
+    background-size: 1300px 560px;
+    background-repeat: no-repeat;
+}
+.frame
+{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    border: 2px solid black;
+    box-shadow: 1px 2px 1px 1px gray;
+    height: 400px;
+    width: 700px;
+    background-image: linear-gradient(rgba(234, 242, 245, 0.7),rgba(227, 242, 247, 0.7));
 }

@@ -18,4 +18,20 @@ body{
     height: 400px;
     width: 700px;
     background-image: linear-gradient(rgba(234, 242, 245, 0.7),rgba(227, 242, 247, 0.7));
+    text-align: center;
+}
+p{
+  font-size: 150px;
+  padding: 50px;
+}
+.reset{
+    width: 70px;
+}
+.play{
+    width: 70px;
+
+}
+.setting{
+    width: 70px;
+
 }

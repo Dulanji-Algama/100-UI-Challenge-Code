@@ -5,15 +5,32 @@
 }
 body{
     background-image: linear-gradient(rgb(173, 229, 237,0.4),rgb(173, 229, 237,0.4)),url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px 555px;
 }
 .on{
+   border: 2px solid black;
+   border-radius: 50px;
+   height: 100px;
+   width: 300px;
+   position: absolute;
+   background-image: linear-gradient(rgb(55, 102, 141,0.5), rgb(176, 228, 245,.5));
 
 }
 .on1{
-
+    position: absolute;
+    top: -30px ;
+    left: 30px;
+    font-weight: 800;
+    font-size: 50px;
+    color: rgb(3, 39, 81);
 }
 .on-img{
-
+    position: absolute;
+    top: 10px ;
+    right: 30px;
+    width: 110px;
+    border-radius: 50%;
 }
 /* off */
 .off{

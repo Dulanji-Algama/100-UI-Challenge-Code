@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(gray,gray),url();
+    background-image: linear-gradient(rgb(173, 229, 237,0.4),rgb(173, 229, 237,0.4)),url(../img/bg.jpg);
 }
 .on{
 

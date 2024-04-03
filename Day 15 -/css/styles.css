@@ -3,3 +3,6 @@
     margin: o;
     box-sizing: border-box;
 }
+body{
+    background-image: linear-gradient(gray,gray),url();
+}

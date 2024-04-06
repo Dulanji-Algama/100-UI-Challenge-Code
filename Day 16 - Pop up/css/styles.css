@@ -23,6 +23,7 @@ body{
     position: absolute;
     top: 20px;
     left: 20px;
+    background-image: linear-gradient(rgba(191, 214, 236, 0.7),rgba(62, 106, 154, 0.7));
 }
 .s-offer{
     font-size: 25px;
@@ -37,6 +38,29 @@ body{
     background-color: rgb(4, 28, 63);
     color: white;
     z-index: 1;
+}
+.close{
+    font-size: 25px;
+    position: absolute;
+    border-radius: 50%;
+    padding-top:5px;
+    width: 40px;
+    height: 40px;
+    right: 15px;
+    top: 5px;
+    text-align: center;
+    background-image: linear-gradient(rgba(191, 214, 236),rgba(62, 106, 154));
+    color: black;
+    z-index: 1;
+    box-shadow: 1px 1px 10px 2px gray;
+
+}
+/* pop up details */
+.main-pic{
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 35px;
 }
 .buy{
     font-size: 25px;

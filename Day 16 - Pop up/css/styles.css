@@ -32,9 +32,7 @@ li a{
     text-decoration: underline; 
     
 }
-.li-select{
-    font-weight: 900;
-}
+
 /* pop up */
 .frame{
     /* border: 0.5px solid white; */
@@ -78,10 +76,11 @@ li a{
     right: 15px;
     top: 5px;
     text-align: center;
-    background-image: linear-gradient(rgba(191, 214, 236),rgba(62, 106, 154));
-    color: black;
+    background-color: black;
+    /* background-image: linear-gradient(rgba(191, 214, 236),rgba(62, 106, 154)); */
+    color: white;
     z-index: 1;
-    box-shadow: 1px 1px 10px 2px gray;
+    box-shadow: 1px -6px 10px 2px black;
 
 }
 /* pop up details */

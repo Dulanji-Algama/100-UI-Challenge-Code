@@ -64,8 +64,41 @@ body{
     top: 35px;
 }
 /* right */
+.off{
+    font-size: 15px;
+    position: absolute;
+    top: 45px;
+    left:-58px;
+    padding-top: 8px;
+    border-radius: 50%;
+    rotate: -45deg;
+    width: 70px;
+    height: 55px;
+    text-align: center;
+    background-color: rgb(244, 61, 61);
+    /* background-color: rgb(4, 28, 63); */
+    color: white;
+    z-index: 1;
+}
+.ri-p1{
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    font-size: 12px;
+}
+.five-e{}
+.ri-p2{
+    
+}
+.spirit-img{
+
+}
+.price{
+
+}                  
 .box{
     position: absolute;
+    text-align: center;
     top: 50px;
     right: 10px;
     border: 2px solid black;

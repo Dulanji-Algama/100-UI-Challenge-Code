@@ -25,7 +25,9 @@
     font-size: 25px;
     position: absolute;
     border-radius: 50px;
-    width: 250px;
-    left: 60px;
-    justify-content: center;
+    width: 200px;
+    left: 140px;
+    text-align: center;
+    background-color: rgb(4, 28, 63);
+    color: white;
 }

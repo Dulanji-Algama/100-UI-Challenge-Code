@@ -4,8 +4,9 @@
 }
 body{
     font-family: "Macondo", cursive;
-    background-image:linear-gradient(rgb(163, 161, 161,0.5),rgb(163, 161, 161,0.5)),url(../img/bg.jpg) ;
-
+    background-repeat: no-repeat;
+    background-size: 1300px, 1280px;
+    background-image: linear-gradient(rgba(174, 23, 23, 0.5),rgba(214, 189, 189,0.5)),url(../img/bg.jpg);
 }
 .frame{
     border: 2px solid black;
@@ -13,7 +14,7 @@ body{
     height: 400px;
     width: 500px;
     position: absolute;
-    top: 50px;
+    top: 80px;
     left: 400px;
 }
 .pop-up{
@@ -71,7 +72,7 @@ body{
     top: 50px;
     right: 20px;
     /* border: 0.5px solid black; */
-    box-shadow: 2px 2px 10px 10px gray;
+    box-shadow: 2px 2px 10px 10px black;
     width: 250px;
     height: 250px;
 }

@@ -86,8 +86,14 @@ body{
     left: 35px;
     font-size: 12px;
 }
-.five-e{}
+.five-e{
+    width: 50px;
+}
 .ri-p2{
+    position: absolute;
+    top: 100px;
+    left: 35px;
+    font-size: 12px;
     
 }
 .spirit-img{

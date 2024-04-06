@@ -56,11 +56,21 @@ body{
 
 }
 /* pop up details */
+/* left */
 .main-pic{
     width: 250px;
     position: absolute;
-    left: 0;
+    left: -80px;
     top: 35px;
+}
+/* right */
+.box{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
 }
 .buy{
     font-size: 25px;

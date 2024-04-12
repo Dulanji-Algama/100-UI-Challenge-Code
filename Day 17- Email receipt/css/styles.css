@@ -28,7 +28,7 @@
     border: 2px solid black;
     background-image: linear-gradient(rgba(240, 240, 241, 0.5),rgba(20, 176, 228, 0.5));
 }
-/* logo */
+/* logo */  
 .logo{
     position: absolute;
     top: 5px;
